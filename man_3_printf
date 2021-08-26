@@ -1,0 +1,30 @@
+.TH man 3 "29 de julio 2021" "_printf man page"
+.SH NAME
+_printf - prints the character(s)
+.SH SYNOPSIS
+#include "holberton.h"
+int _printf(const char *format,...)
+
+## DESCRIPTION
+
+the function is _printf(), this function prints characters , strings, integer numbers and decimal numbers.
+
+
+.RS 3
+print_c prints a character
+.br
+print_s prints a string
+.br
+prints_i prints and integer and a decimal
+.br
+.SH RETURN
+the function will return the numbers of characters printed
+if unsucceful the function will return null.
+.SH EXAMPLE
+num = 23;
+_printf("%d",num);
+_printf("Let's try to printf a simple sentence.\n");
+
+## AUTORS
+Jarold Stiven Hakins
+Andres Felipe Duque
